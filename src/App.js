@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import HelloWorld from './components/HelloWorld'
+import Hello from './components/Hello'
 import './App.css';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div className="App">
-            <HelloWorld />
+            <Hello {name}/>
       </div>
     );
   }
 }
-
-export default App;
